@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Splenda Electrical</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="logo">Splenda Electrical</div>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+</nav>
+
+
+<!-- Header -->
+<header id="home"> 
+    <div class="header-content">
+        <h1>Reliable Electrical Contracting</h1>
+        <p>Serving South Africa since 2010</p>
+        <button onclick="scrollToSection('services')">Our Services</button>
+    </div>
+</header>
+
+
+<!-- About -->
+<section id="about">
+<h2>About Us</h2>
+
+<p>
+Splenda Electrical is a professional electrical contracting company operating
+within South Africa, and based within the Harry Gwala District. Founded in 2010, the company has successfully
+completed over 50 electrical infrastructure and domestic projects.
+</p>
+
+<p>
+Our commitment is to deliver reliable, safe and high-quality electrical
+solutions for municipalities, businesses and households.
+</p>
+
+
+<h3>Meet The Team</h3>
+
+<div class="team">
+
+<div class="team-card">
+<h4>Managing Director</h4>
+<p><strong>Mr. Lungani Malinga</strong></p>
+<p>Experienced electrical contractor overseeing project delivery, compliance and technical operations.</p>
+</div>
+
+</div>
+</section>
+
+
+
+<!-- Services -->
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Electrification</h3>
+<p>Rural and urban electrification projects including infrastructure installation.</p>
+</div>
+
+<div class="service-card">
+<h3>High Mast Construction</h3>
+<p>Installation and maintenance of high mast lighting systems.</p>
+</div>
+
+<div class="service-card">
+<h3>Domestic Electrical</h3>
+<p>House wiring, installations, upgrades and electrical compliance.</p>
+</div>
+
+<div class="service-card">
+<h3>Electrical Repairs</h3>
+<p>Fault finding, repairs and electrical maintenance services.</p>
+</div>
+
+<div class="service-card">
+<h3>Refrigeration</h3>
+<p>Air conditioner repairs and installations, as well as mobile fridge services.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Projects -->
+<section id="projects">
+
+<h2>Our Projects</h2>
+
+<p>Splenda Electrical has successfully completed over 50 projects.</p>
+
+<div class="projects-grid">
+
+<div class="project-card" onclick="showProject('rural')">
+<h3>Rural Electrification</h3>
+<p>Electrical infrastructure development for rural communities.</p>
+</div>
+
+<div class="project-card" onclick="showProject('mast')">
+<h3>High Mast Installation</h3>
+<p>Street and community lighting projects.</p>
+</div>
+
+<div class="project-card" onclick="showProject('domestic')">
+<h3>Domestic Installations</h3>
+<p>Residential electrical wiring and installations.</p>
+</div>
+
+<div class="project-card" onclick="showProject('refrigeration')">
+<h3>Refrigeration</h3>
+<p>Air conditioning and mobile refrigeration installation and repair projects.</p>
+</div>
+
+</div>
+
+<div id="project-gallery"></div>
+
+</section>
+
+
+<!-- Contact -->
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>Reach out to us for professional electrical services.</p>
+
+<div class="contact-buttons">
+ 
+<a class="call-btn" href="tel:+27000000000">Call Us</a>
+
+<a class="email-btn" href="mailto:info@splendaelectrical.co.za">Email Us</a>
+
+</div>
+
+</section>
+
+
+<footer>
+<p>© 2026 Splenda Electrical | Harry Gwala District</p>
+</footer>
+
+</body>
+</html>
