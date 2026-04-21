@@ -57,8 +57,9 @@ const projectData = {
     icon: '🏗️',
     images: [
       { src: 'images/rural1.jpg', caption: 'Infrastructure Installation' },
-      { src: 'images/rural2.jpg', caption: 'Cable Laying & Grid Work'   },
-      { src: 'images/rural3.jpg', caption: 'Community Connection'        },
+      { src: 'images/rural2.jpeg', caption: 'Cable Laying & Grid Work'   },
+      { src: 'images/rural3.jpeg', caption: 'Community Connection'        },
+      { src: 'images/rural4.jpeg', caption: 'Community Connection'        },
     ]
   },
   mast: {
@@ -66,8 +67,9 @@ const projectData = {
     icon: '💡',
     images: [
       { src: 'images/mast1.jpg', caption: 'Mast Erection'         },
-      { src: 'images/mast2.jpg', caption: 'Lighting Installation'  },
-      { src: 'images/mast3.jpg', caption: 'Night Commissioning'    },
+      { src: 'images/mast2.jpeg', caption: 'Lighting Installation'  },
+      { src: 'images/mast3.jpeg', caption: 'Night Commissioning'    },
+      { src: 'images/mast4.jpeg', caption: 'Night Commissioning'    },
     ]
   },
   domestic: {
@@ -75,8 +77,8 @@ const projectData = {
     icon: '🏠',
     images: [
       { src: 'images/domestic1.jpg', caption: 'House Wiring'            },
-      { src: 'images/domestic2.jpg', caption: 'Distribution Board'       },
-      { src: 'images/domestic3.jpg', caption: 'Compliance Certificate'   },
+      { src: 'images/domestic1.jpeg', caption: 'Distribution Board'       },
+      { src: 'images/domestic2.jpeg', caption: 'Compliance Certificate'   },
     ]
   },
   refrigeration: {
