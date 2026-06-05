@@ -85,7 +85,7 @@ const projectData = {
     label: 'Refrigeration & HVAC',
     icon: '❄️',
     images: [
-      { src: 'images/ac1.jpg',     caption: 'AC Installation'            },
+      { src: 'images/aircon1.jpg',     caption: 'AC Installation'            },
       { src: 'images/ac2.jpg',     caption: 'HVAC Systems'               },
       { src: 'images/fridge1.jpg', caption: 'Mobile Refrigeration'       },
     ]
